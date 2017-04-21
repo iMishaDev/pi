@@ -55,8 +55,8 @@ class pi : SKNode{
         case 3.0: return UIColor(red: 153/255, green: 51/255, blue:153/255, alpha: 0.4)
         case 4.0: return UIColor(red: 204/255, green: 102/255, blue: 153/255, alpha: 0.4)
         case 5.0: return UIColor(red: 255/255, green: 80/255, blue: 80/255, alpha: 0.4)
-        case 6.0: return UIColor(red: 204/255, green: 102/255, blue: 0/255, alpha: 0.4) // brown
-        case 7.0: return UIColor(red: 153/255, green: 102/255, blue: 0/255, alpha: 0.4) // like brown
+        case 6.0: return UIColor(red: 204/255, green: 102/255, blue: 0/255, alpha: 0.4)
+        case 7.0: return UIColor(red: 153/255, green: 102/255, blue: 0/255, alpha: 0.4)
         case 8.0: return UIColor(red: 153/255 , green: 153/255, blue: 102/255, alpha: 0.4)
         case 9.0: return UIColor(red: 51/255, green: 102/255, blue: 0/255, alpha: 0.4)
         default: return UIColor(red: 102/255, green: 153/255, blue: 153/255, alpha: 0.4)
