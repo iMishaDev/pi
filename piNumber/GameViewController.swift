@@ -18,7 +18,6 @@ class GameViewController: UIViewController {
             
             let scene = GameScene()
             
-            
             scene.size = view.bounds.size
             scene.scaleMode = SKSceneScaleMode.resizeFill
             
