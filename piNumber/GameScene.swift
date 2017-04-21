@@ -20,10 +20,9 @@ class GameScene: SKScene {
         piDrawing.run(SKAction.repeatForever(SKAction.rotate(byAngle: CGFloat(Double.pi/2), duration: 3)))
         self.addChild(piDrawing)
         
-        piLabel.text = "THE ART OF PI"
+        piLabel.text = "THE ART OF π"
         piLabel.position = CGPoint(x: self.frame.size.width/2, y: self.frame.size.height/5  - 20)
         self.addChild(piLabel)
-        
         
     }
     
