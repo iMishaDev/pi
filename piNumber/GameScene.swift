@@ -11,12 +11,12 @@ import GameplayKit
 class GameScene: SKScene {
     
     
-    private var line = pi()
+    private var piDrawing = pi()
     
     override func didMove(to view: SKView) {
         
-        line.position = CGPoint(x: self.frame.size.width/2, y: self.frame.size.height/2)
-        self.addChild(line)
+        piDrawing.position = CGPoint(x: self.frame.size.width/2, y: self.frame.size.height/2)
+        self.addChild(piDrawing)
         
     }
     

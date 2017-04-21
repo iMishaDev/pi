@@ -39,23 +39,14 @@ class pi : SKNode{
     func switcher (num : Double)->UIColor{
         switch(num){
         case 1.0: return UIColor.purple
-            
         case 2.0: return UIColor.yellow
-            
         case 3.0: return UIColor.green
-            
         case 4.0: return UIColor.lightGray
-            
         case 5.0: return UIColor.orange
-            
         case 6.0: return UIColor.cyan
-            
         case 7.0: return UIColor.magenta
-            
         case 8.0: return UIColor.blue
-            
         case 9.0: return UIColor.red
-            
         default: return UIColor.brown
             
         }
